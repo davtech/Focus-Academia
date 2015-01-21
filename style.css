@@ -313,6 +313,10 @@ header {
     color: #333 !important;
 }
 
+header.transparent.light #brand img {
+    max-width: 230px;
+}
+
 header.transition {
     -webkit-transition: background-color 0.3s ease;
     -moz-transition: background-color 0.3s ease;
@@ -370,6 +374,9 @@ nav {
     display: inline-block;
     float: right;
     clear: none;
+}
+nav .menu-principal {
+    margin-top: 20px;
 }
 
 #brand a,
@@ -517,10 +524,12 @@ nav ul.sub-menu > li:last-child > a {
 }
 
 #menu-toggle i {
-    line-height: 2;
+    line-height: 3;
     -webkit-transition: -webkit-transform 0.3s;
     -moz-transition: -moz-transform 0.3s;
     transition: transform 0.3s;
+    font-size: 1.8em;
+    margin-top: 7px;
 }
 
 #menu-toggle i.active {
@@ -3478,11 +3487,10 @@ footer .row-content.buffer {
 }
 
 /*----------------------------------------------------------------
-    768px Breakpoint
+    860px Breakpoint
 ----------------------------------------------------------------*/
-
-@media handheld, only screen and (max-width:48em) {
-
+@media all and (max-width: 53.75em) {
+    
     header {
         position: relative !important;
         background-color: #fff !important;
@@ -3590,6 +3598,13 @@ footer .row-content.buffer {
         -moz-box-shadow: none;
         box-shadow: none;
     }
+}
+
+/*----------------------------------------------------------------
+    768px Breakpoint
+----------------------------------------------------------------*/
+@media handheld, only screen and (max-width:48em) {
+
 
     #intro {
         position: relative;
