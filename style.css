@@ -308,6 +308,12 @@ header {
     position: relative !important;
 }
 
+/*logo visibili*/
+
+header .logo-preto {
+    display: none;
+}
+
 .no-parallax header.transparent.light #brand a,
 .no-parallax header.transparent.light nav > ul > li > a {
     color: #333 !important;
@@ -3491,6 +3497,14 @@ footer .row-content.buffer {
 ----------------------------------------------------------------*/
 @media all and (max-width: 62.5em) {
     
+    /*logo*/
+    header .logo-branca {
+        display: none;
+    }
+    header .logo-preto {
+        display: block;
+    }
+
     header {
         position: relative !important;
         background-color: #fff !important;
