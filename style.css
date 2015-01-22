@@ -359,6 +359,12 @@ header.fixed-header {
     -o-transform: none !important;
     transform: none !important;
 }
+header.fixed-header .logo-preto{
+    display: block;
+}
+header.fixed-header .logo-branca{
+    display: none;
+}
 
 #brand {
     float: left;

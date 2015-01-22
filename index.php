@@ -1,69 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
 
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-		<meta name="description" content="The Page Description">
-		<style type="text/css">@-ms-viewport{width: device-width;}</style>
-		<title>Focus Academia</title>
-		<link rel="stylesheet" href="css/layers.min.css" media="screen">
-		<link rel="stylesheet" href="css/font-awesome.min.css" media="screen"> 
-		<link rel="stylesheet" href="style.css" media="screen">
-		<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:400italic,700italic,400,700' rel='stylesheet' type='text/css'>
-		<!--[if lt IE 9]>
-		<script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
-		<![endif]-->
-		<link rel="icon" href="favicon.png">
-		<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
-		<link rel="apple-touch-icon" sizes="76x76" href="img/apple-touch-icon-76x76.png">
-		<link rel="apple-touch-icon" sizes="120x120" href="img/apple-touch-icon-120x120.png">
-		<link rel="apple-touch-icon" sizes="152x152" href="img/apple-touch-icon-152x152.png">		
-	</head>
-
-	<body class="page">
-
-		<header role="banner" class="transparent light">
-			<div class="row">
-				<div class="nav-inner row-content buffer-left buffer-right even clear-after">
-					<div id="brand">
-					<a href="#" alt="Focus academia"> 
-						<h1 class="reset">
-							<img class="logo-preto" src="img/logo-focus-academia-fortaleza.png" alt="logo" >
-							<img class="logo-branca" src="img/logo-focus-academia-fortaleza-branco.png" alt="logo" >
-							<span class="hidden">Focus Academia Fortaleza</span>
-						</h1>
-					</a>
-
-					</div><!-- brand -->
-					<a id="menu-toggle" href="#"><i class="fa fa-bars fa-lg"></i></a>
-					<nav>
-						<ul class="reset menu-principal" role="navigation">
-							<li class="menu-item">
-								<a href="index.html">Início</a>
-							</li>
-							<li class="menu-item">
-								<a href="#">Modalidades</a>
-							</li>
-
-							<li class="menu-item">
-								<a href="blog-4-columns-masonry.html">Novidades</a>								
-							</li>
-
-							<li class="menu-item">
-								<a href="blog-4-columns-masonry.html">Promoções</a>								
-							</li>
-							
-							<li class="menu-item">
-								<a href="#">Galeria</a>
-							</li>
-														
-							<li class="menu-item"><a href="contact.html">Contato</a></li>
-						</ul>
-					</nav>
-				</div><!-- row-content -->	
-			</div><!-- row -->	
-		</header>
+<?php include('header.php'); ?>
 
 		<main role="main">
 			<div id="intro-wrap">
@@ -117,6 +53,7 @@
 
 				<section class="row section">
 					<div class="row-content buffer even clear-after">
+					<div class="section-title"><h3>Modalidades</h3></div>
 						<div class="column four">
 							<div class="small-icon red"><i class="icon icon-paperfly"></i></div>
 							<div class="small-icon-text clear-after">
@@ -141,7 +78,7 @@
 						<div class="column four">
 							<div class="small-icon red"><i class="icon icon-tablet"></i></div>
 							<div class="small-icon-text clear-after">
-								<h4>Karatê</h4>
+								<h4>Jump</h4>
 								<p class="text-xs">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 							</div>
 						</div>
@@ -155,7 +92,14 @@
 						<div class="column four last">
 							<div class="small-icon red"><i class="icon icon-multiview"></i></div>
 							<div class="small-icon-text clear-after">
-								<h4>Forró</h4>
+								<h4>Karatê</h4>
+								<p class="text-xs">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+							</div>
+						</div>
+						<div class="column four last">
+							<div class="small-icon red"><i class="icon icon-multiview"></i></div>
+							<div class="small-icon-text clear-after">
+								<h4>Ritmo Mix</h4>
 								<p class="text-xs">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 							</div>
 						</div>
@@ -309,57 +253,5 @@
 			</div><!-- id-main -->
 		</main><!-- main -->
 
-		<footer role="contentinfo">
-			<div class="row">
-				<div class="row-content buffer clear-after">
-					<section id="top-footer">
-						<div class="widget column three"><!-- la class="widget" è forse generata utomaticamente da wp -->
-							<h4>Menu</h4>
-							<ul class="plain">
-								<li><a href="#">Início</a></li>
-								<li><a href="#">Modalidades</a></li>
-								<li><a href="#">Novidades</a></li>
-								<li><a href="#">Galeria</a></li>
-								<li><a href="#">Contato</a></li>
-							</ul>
-						</div>
-						<div class="widget column three">
-							<h4>Arquivos</h4>
-							<ul class="plain">
-								<li><a href="#">March 2014</a></li>
-								<li><a href="#">April 2014</a></li>
-								<li><a href="#">May 2014</a></li>
-								<li><a href="#">June 2014</a></li>
-								<li><a href="#">July 2014</a></li>
-							</ul>
-						</div>								
-						<div class="widget column three">
-							<h4>Focus</h4>
-							<p>Venha para Focus academia.<br>
-							Av. Maestro Lisboa 2049 ,Lagoa Redonda, Fortaleza.</p>
-						</div>				
-						<div class="widget meta-social column three">
-							<h4>Follow Us</h4>
-							<ul class="inline">
-								<li><a href="#" class="twitter-share border-box"><i class="fa fa-twitter fa-lg"></i></a></li>
-								<li><a href="#" class="facebook-share border-box"><i class="fa fa-facebook fa-lg"></i></a></li>
-								<li><a href="#" class="pinterest-share border-box"><i class="fa fa-pinterest fa-lg"></i></a></li>
-							</ul>
-						</div>														
-					</section><!-- top-footer -->
-					<section id="bottom-footer">
-						<p class="keep-left">&copy; 2014 <a href="http://www.davidbastos.com.br" alt="David Bastos">David Bastos</a>.Todos direitos reservados.</p>
-						<!-- <p class="keep-right">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p> -->
-					</section><!-- bottom-footer -->			
-				</div><!-- row-content -->	
-			</div><!-- row -->	
-		</footer>
-
-		<script src="https://code.jquery.com/jquery.js"></script>
-		<script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>		
-		<script src="js/plugins.js"></script>
-		<script src="js/main.js"></script>
-
-	</body>
-
-</html>
+		
+<?php include('footer.php'); ?>
