@@ -3487,9 +3487,9 @@ footer .row-content.buffer {
 }
 
 /*----------------------------------------------------------------
-    860px Breakpoint
+    1000px Breakpoint
 ----------------------------------------------------------------*/
-@media all and (max-width: 53.75em) {
+@media all and (max-width: 62.5em) {
     
     header {
         position: relative !important;
