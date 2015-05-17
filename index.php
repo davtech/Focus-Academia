@@ -58,50 +58,50 @@
 					<div class="row-content buffer even clear-after">
 					<div class="section-title"><h3>Modalidades</h3></div>
 						<div class="column four">
-							<div class="small-icon red"><i class="icon icon-paperfly"></i></div>
-							<div class="small-icon-text clear-after">
+							<!-- <div class="small-icon red"><i class="icon icon-paperfly"></i></div> -->
+							<div class=" clear-after">
 								<h4>Musculação</h4>
 								<p class="text-xs">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 							</div>
 						</div>
 						<div class="column four">
-							<div class="small-icon red"><i class="icon icon-diamond"></i></div>
-							<div class="small-icon-text clear-after">
+							<!-- <div class="small-icon red"><i class="icon icon-diamond"></i></div> -->
+							<div class=" clear-after">
 								<h4>Funcional</h4>
 								<p class="text-xs">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 							</div>
 						</div>
 						<div class="column four last">
-							<div class="small-icon red"><i class="icon icon-crown"></i></div>
-							<div class="small-icon-text clear-after">
+							<!-- <div class="small-icon red"><i class="icon icon-crown"></i></div> -->
+							<div class=" clear-after">
 								<h4>Muay Thai</h4>
 								<p class="text-xs">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 							</div>
 						</div>
 						<div class="column four">
-							<div class="small-icon red"><i class="icon icon-tablet"></i></div>
-							<div class="small-icon-text clear-after">
+							<!-- <div class="small-icon red"><i class="icon icon-tablet"></i></div> -->
+							<div class=" clear-after">
 								<h4>Jump</h4>
 								<p class="text-xs">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 							</div>
 						</div>
 						<div class="column four">
-							<div class="small-icon red"><i class="icon icon-megaphone"></i></div>
-							<div class="small-icon-text clear-after">
+							<!-- <div class="small-icon red"><i class="icon icon-megaphone"></i></div> -->
+							<div class=" clear-after">
 								<h4>Personal</h4>
 								<p class="text-xs">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 							</div>
 						</div>
 						<div class="column four last">
-							<div class="small-icon red"><i class="icon icon-multiview"></i></div>
-							<div class="small-icon-text clear-after">
+							<!-- <div class="small-icon red"><i class="icon icon-multiview"></i></div> -->
+							<div class=" clear-after">
 								<h4>Karatê</h4>
 								<p class="text-xs">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 							</div>
 						</div>
 						<div class="column four last">
-							<div class="small-icon red"><i class="icon icon-multiview"></i></div>
-							<div class="small-icon-text clear-after">
+							<!-- <div class="small-icon red"><i class="icon icon-multiview"></i></div> -->
+							<div class=" clear-after">
 								<h4>Ritmo Mix</h4>
 								<p class="text-xs">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 							</div>

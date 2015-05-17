@@ -6,7 +6,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 		<meta name="description" content="The Page Description">
 		<style type="text/css">@-ms-viewport{width: device-width;}</style>
-		<title>Focus Academia</title>
+		<title>Beetle - Blog 4 Columns Masonry</title>
 		<link rel="stylesheet" href="css/layers.min.css" media="screen">
 		<link rel="stylesheet" href="css/font-awesome.min.css" media="screen"> 
 		<link rel="stylesheet" href="style.css" media="screen">
@@ -14,14 +14,14 @@
 		<!--[if lt IE 9]>
 		<script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
 		<![endif]-->
-		<link rel="icon" href="favicon.png">
+		<link rel="icon" href="favicon.ico">
 		<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
 		<link rel="apple-touch-icon" sizes="76x76" href="img/apple-touch-icon-76x76.png">
 		<link rel="apple-touch-icon" sizes="120x120" href="img/apple-touch-icon-120x120.png">
-		<link rel="apple-touch-icon" sizes="152x152" href="img/apple-touch-icon-152x152.png">		
+		<link rel="apple-touch-icon" sizes="152x152" href="img/apple-touch-icon-152x152.png">			
 	</head>
 
-	<body class="page">
+	<body class="blog masonry-style">
 
 		<header role="banner" class="transparent light">
 			<div class="row">

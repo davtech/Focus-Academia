@@ -1,4 +1,4 @@
-<footer role="contentinfo">
+		<footer role="contentinfo">
 			<div class="row">
 				<div class="row-content buffer clear-after">
 					<section id="top-footer">

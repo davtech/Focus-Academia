@@ -53,7 +53,7 @@
 					</div>
 				</section>
 
-			</div><!-- id-main
+			</div><!-- id-main -->
 		</main><!-- main -->
 
 <?php include('footer.php'); ?>
