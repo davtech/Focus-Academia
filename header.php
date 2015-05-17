@@ -60,7 +60,7 @@
 							</li>
 
 							<li class="menu-item">
-								<a href="blog-4-columns-masonry.html">Promoções</a>								
+								<a href="promocoes.php">Promoções</a>								
 							</li>
 							
 							<li class="menu-item">

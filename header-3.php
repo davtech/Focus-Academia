@@ -21,7 +21,7 @@
 		<link rel="apple-touch-icon" sizes="152x152" href="img/apple-touch-icon-152x152.png">			
 	</head>
 
-	<body class="blog masonry-style">
+	<body class="blog list-style">
 
 		<header role="banner" class="transparent light">
 			<div class="row">
